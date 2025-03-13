@@ -32,6 +32,7 @@ class StickyNoteWidget(QWidget):
         self.text_edit = QPlainTextEdit(self)
         self.text_edit.setGeometry(20, 20, self.width() - 40, self.height() - 40)
         self.text_edit.setWordWrapMode(True)
+        self.text_edit.setFrameStyle(QPlainTextEdit.NoFrame)
         self.text_edit.setFont(font)
         
         # Palette
