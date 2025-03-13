@@ -25,3 +25,8 @@ macos-build:
 # Clean the build and dist folders
 macos-clean:
 	rm -rf build dist
+
+# Windows / Linux specific commands
+
+windows-build:
+	scripts/nuitka_build.cmd
