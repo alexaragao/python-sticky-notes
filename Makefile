@@ -28,5 +28,6 @@ macos-clean:
 
 # Windows / Linux specific commands
 
+# Build the app for Windows
 windows-build:
 	scripts/nuitka_build.cmd
