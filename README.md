@@ -19,12 +19,11 @@ A simple, cross-platform Sticky Notes app built with Python and QtPy5. Easily cr
 - [💡 Contributing](#-contributing)
 - [🌟 Acknowledgments](#-acknowledgments)
 
-## 📦 Installation
-
-> Currently this project don't provide an automatic way to install the app. Thats being worked on!
+### Windows (Executable)
+1. [Download for Windows](https://github.com/alexaragao/python-sticky-notes/releases/latest/download/stickynotes-windows.exe)
 
 ### macOS (App Bundle)
-1. See the [Packaging](#️-packaging-the-app) tutorial to generate the `.app` file.
+1. [Download for macOS](https://github.com/alexaragao/python-sticky-notes/releases/latest/download/stickynotes-macos.dmg)
 2. Move it to the Applications folder.
 
 ## 🛠️ Building from Source
@@ -57,6 +56,12 @@ A simple, cross-platform Sticky Notes app built with Python and QtPy5. Easily cr
 5. Have fun!
 
 ## 🏗️ Packaging the App
+
+### Windows
+```sh
+make windows-build
+```
+More information on [Windows Packaging](docs/windows_packaging.md)
 
 ### macOS
 ```sh
