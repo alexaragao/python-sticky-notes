@@ -8,6 +8,8 @@ by: Alexandre Aragão
 
 A simple, cross-platform Sticky Notes app built with Python and QtPy5. Easily create, edit, and manage your notes with a clean and intuitive interface.
 
+![Preview](docs/preview.gif)
+
 ## 📌 Index
 - [📦 Installation](#-installation)
 - [🛠️ Building from Source](#-building-from-source)
