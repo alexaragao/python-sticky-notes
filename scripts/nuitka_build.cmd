@@ -12,6 +12,6 @@ python -m nuitka ^
     --windows-file-version=1.0.0 ^
     --windows-file-description=%description% ^
     --enable-plugin=pyqt5 ^
-    --output-dir=build  ^
-    --output-filename="StickyNotes.exe" ^
+    --output-dir=dist  ^
+    --output-filename="stickynotes-windows.exe" ^
     src/app.py
